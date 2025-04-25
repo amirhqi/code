@@ -1,8 +1,7 @@
 {
   "app": "energyguard-pro",
-  "port": 80,
-  "build": {
-    "location": "iran"
-  },
-  "disks": []
+  "platform": "python",
+  "region": "iran",            // یا هر منطقه مدنظرت
+  "runtime": "python3.10",     // یا نسخه‌ی پایتونت
+  "command": "streamlit run app.py --server.port=$PORT --server.address=0.0.0.0"
 }
